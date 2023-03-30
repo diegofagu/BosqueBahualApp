@@ -1,5 +1,6 @@
 body {
-    background-color: white;
+    background-image: url("../img/Image.jpeg");
+    
 }
 
 header {
@@ -32,3 +33,5 @@ header {
   nav ul li:hover {
     background: #778c43;
   }
+
+  
