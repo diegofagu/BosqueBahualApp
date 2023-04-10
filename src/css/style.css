@@ -99,3 +99,47 @@ header {
     border-radius: 4px;
     box-sizing: border-box;
   }
+
+  .contact-box {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .contact-box h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  .contact-box form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact-box form input[type="text"],
+  .contact-box form input[type="email"],
+  .contact-box form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-box form input[type="submit"] {
+    background-color: grey;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .contact-box form input[type="submit"]:hover {
+    background-color: #778c43;
+  }
+  
